@@ -3,7 +3,7 @@ package jm.task.core.jdbc.util;
 import java.sql.*;
 
 public class Util {
-    private  Connection connection;
+    private static Connection connection;
 
     private final String URL = "jdbc:mysql://localhost:3306/Connection1?useSSL=false";
     private final String USERNAME = "root";
